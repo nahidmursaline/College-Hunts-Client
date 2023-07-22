@@ -1,0 +1,360 @@
+[
+    {
+      
+      "name": "Alpha University",
+      "image": "https://i.ibb.co/Ctj0qrS/ruijia-wang-BS9w1-QCk-Jys-unsplash.jpg",
+      "admission": {
+        "fall": "Aug 20 - Sep 30",
+        "spring": "Jan 10 - Feb 28"
+      },
+      "events": [
+        {
+          "name": "Welcome Party",
+          "date": "Sep 15, 2023"
+        },
+        {
+          "name": "Cultural Fest",
+          "date": "Nov 5-7, 2023"
+        },
+        {
+          "name": "TechExpo",
+          "date": "Apr 15-17, 2024"
+        }
+      ],
+      "research_history": "Founded in 1960, ABC University is a research hub.",
+      "sports": [
+        "Soccer, ",
+
+        "Basketball, ",
+
+        "Tennis, ",
+
+        "Swimming "
+       
+      ],
+      "admission_process": "Apply at https://abcuniversity.edu/admissions.",
+      "event_details": {
+        "Welcome Party": {
+          "time": "6:00 PM - 9:00 PM",
+          "location": "Campus Ground"
+        },
+        "Cultural Fest": {
+          "time": "9:00 AM - 10:00 PM",
+          "location": "Auditorium & Ground"
+        },
+        "TechExpo": {
+          "time": "10:00 AM - 5:00 PM",
+          "location": "Technology Center"
+        }
+      },
+      "research_works": [
+        {
+          "title": "Advancements in Renewable Energy",
+          "authors": ["John Smith", "Emma Johnson"],
+          "link": "https://example.com/research_renewable_energy"
+        },
+        {
+          "title": "AI in Healthcare",
+          "authors": ["Michael Brown", "Sophia Lee", "David Miller"],
+          "link": "https://example.com/research_ai_healthcare"
+        }
+      ],
+      "ratings": 4.5,
+      "number_of_research": 800
+    },
+    {
+      
+      "name": "Summit College",
+      "image": "https://i.ibb.co/BtS48kD/spencer-russell-7f55okwq6i-E-unsplash.jpg",
+      "admission": {
+        "fall": "Aug 15 - Sep 30",
+        "spring": "Jan 15 - Feb 28"
+      },
+      "events": [
+        {
+          "name": "Orientation Day",
+          "date": "Sep 10, 2023"
+        },
+        {
+          "name": "Sports Meet",
+          "date": "Nov 20-25, 2023"
+        },
+        {
+          "name": "Research Symposium",
+          "date": "Apr 5-7, 2024"
+        }
+      ],
+      "research_history": "Established in 1975, XYZ College excels in research.",
+      "sports": [
+        "Football, ",
+        "Basketball, ",
+        "Cricket, ",
+        "Tennis "
+        
+      ],
+      "admission_process": "Apply at https://xyzcollege.edu/admissions.",
+      "event_details": {
+        "Orientation Day": {
+          "time": "10:00 AM - 3:00 PM",
+          "location": "Auditorium"
+        },
+        "Sports Meet": {
+          "time": "8:00 AM - 6:00 PM",
+          "location": "Sports Ground"
+        },
+        "Research Symposium": {
+          "time": "9:00 AM - 5:00 PM",
+          "location": "Research Center"
+        }
+      },
+      "research_works": [
+        {
+          "title": "Climate Change on Biodiversity",
+          "authors": ["John Doe", "Jane Smith"],
+          "link": "https://example.com/research_climate_change"
+        },
+        {
+          "title": "Advancements in AI",
+          "authors": ["Michael Johnson", "Emily Brown", "David Lee"],
+          "link": "https://example.com/research_ai"
+        }
+      ],
+      "ratings": 4.2,
+      "number_of_research": 650
+    },
+    {
+     
+      "name": "Vanguard Institute",
+      "image": "https://i.ibb.co/8XG8qz1/zhanhui-li-1iux-Ws-IZ6ko-unsplash.jpg",
+      "admission": {
+        "fall": "Aug 20 - Sep 30",
+        "spring": "Jan 10 - Feb 28"
+      },
+      "events": [
+        {
+          "name": "Welcome Party",
+          "date": "Sep 15, 2023"
+        },
+        {
+          "name": "Cultural Fest",
+          "date": "Nov 5-7, 2023"
+        },
+        {
+          "name": "TechExpo",
+          "date": "Apr 15-17, 2024"
+        }
+      ],
+      "research_history": "Founded in 1960, ABC University is a research hub.",
+      "sports": [
+        "Soccer, ",
+        "Basketball, ",
+        "Tennis, ",
+        "Swimming "
+      ],
+      "admission_process": "Apply at https://abcuniversity.edu/admissions.",
+      "event_details": {
+        "Welcome Party": {
+          "time": "6:00 PM - 9:00 PM",
+          "location": "Campus Ground"
+        },
+        "Cultural Fest": {
+          "time": "9:00 AM - 10:00 PM",
+          "location": "Auditorium & Ground"
+        },
+        "TechExpo": {
+          "time": "10:00 AM - 5:00 PM",
+          "location": "Technology Center"
+        }
+      },
+      "research_works": [
+        {
+          "title": "Advancements in Renewable Energy",
+          "authors": ["John Smith", "Emma Johnson"],
+          "link": "https://example.com/research_renewable_energy"
+        },
+        {
+          "title": "AI in Healthcare",
+          "authors": ["Michael Brown", "Sophia Lee", "David Miller"],
+          "link": "https://example.com/research_ai_healthcare"
+        }
+      ],
+      "ratings": 4.5,
+      "number_of_research": 800
+    },
+    {
+      
+      "name": "Stellar University",
+      "image": "https://i.ibb.co/m8KHd6h/just-daisy-Bl-CJi8wal-FQ-unsplash.jpg",
+      "admission": {
+        "fall": "Sep 1 - Oct 15",
+        "spring": "Feb 1 - Mar 15"
+      },
+      "events": [
+        {
+          "name": "Freshers' Party",
+          "date": "Sep 25, 2023"
+        },
+        {
+          "name": "Science Exhibition",
+          "date": "Nov 12-14, 2023"
+        },
+        {
+          "name": "Tech Symposium",
+          "date": "Mar 10-12, 2024"
+        }
+      ],
+      "research_history": "LMN Institute has been fostering research since 1985.",
+      "sports": [
+        "Cricket, ",
+        "Basketball, ",
+        "Volleyball "
+      ],
+      "admission_process": "Apply at https://lmninstitute.edu/admissions.",
+      "event_details": {
+        "Freshers' Party": {
+          "time": "7:00 PM - 10:00 PM",
+          "location": "Student Center"
+        },
+        "Science Exhibition": {
+          "time": "9:00 AM - 6:00 PM",
+          "location": "Science Building"
+        },
+        "Tech Symposium": {
+          "time": "10:00 AM - 5:00 PM",
+          "location": "Engineering Block"
+        }
+      },
+      "research_works": [
+        {
+          "title": "Advancements in Nanotechnology",
+          "authors": ["Laura Clark", "Robert White"],
+          "link": "https://example.com/research_nanotech"
+        },
+        {
+          "title": "Machine Learning Applications",
+          "authors": ["Daniel Carter", "Sophie Green", "Alex Turner"],
+          "link": "https://example.com/research_ml"
+        }
+      ],
+      "ratings": 4.1,
+      "number_of_research": 550
+    },
+    {
+     
+      "name": "Horizon College",
+      "image": "https://i.ibb.co/SQjsFYt/olu-famule-Dv2-PNb-MWts-E-unsplash.jpg",
+      "admission": {
+        "fall": "Sep 10 - Oct 20",
+        "spring": "Feb 5 - Mar 15"
+      },
+      "events": [
+        {
+          "name": "Freshers' Bash",
+          "date": "Sep 25, 2023"
+        },
+        {
+          "name": "Cultural Carnival",
+          "date": "Nov 10-12, 2023"
+        },
+        {
+          "name": "Tech Summit",
+          "date": "Mar 5-7, 2024"
+        }
+      ],
+      "research_history": "EFG University is dedicated to cutting-edge research and innovation.",
+      "sports": [
+        "Volleyball, ",
+        "Basketball, ",
+        "Cricket "
+      ],
+      "admission_process": "Apply at https://efguniversity.edu/admissions.",
+      "event_details": {
+        "Freshers' Bash": {
+          "time": "7:00 PM - 11:00 PM",
+          "location": "Student Center"
+        },
+        "Cultural Carnival": {
+          "time": "9:00 AM - 10:00 PM",
+          "location": "Campus Ground"
+        },
+        "Tech Summit": {
+          "time": "10:00 AM - 6:00 PM",
+          "location": "Tech Hall"
+        }
+      },
+      "research_works": [
+        {
+          "title": "Sustainable Architecture",
+          "authors": ["Olivia Turner", "Alexander Carter"],
+          "link": "https://example.com/research_sustainable_architecture"
+        },
+        {
+          "title": "Quantum Computing Advancements",
+          "authors": ["Sophia Green", "Robert Davis", "Emily Parker"],
+          "link": "https://example.com/research_quantum_computing"
+        }
+      ],
+      "ratings": 4.8,
+      "number_of_research": 920
+    },
+    {
+      
+      "name": "Prime Institute",
+      "image": "https://i.ibb.co/TLybLkt/porter-raab-gnj9vj-FRY-unsplash.jpg",
+      "admission": {
+        "fall": "Sep 15 - Oct 30",
+        "spring": "Feb 15 - Mar 31"
+      },
+      "events": [
+        {
+          "name": "Freshers' Welcome",
+          "date": "Sep 20, 2023"
+        },
+        {
+          "name": "Cultural Extravaganza",
+          "date": "Nov 15-18, 2023"
+        },
+        {
+          "name": "Innovation Fair",
+          "date": "Mar 20-23, 2024"
+        }
+      ],
+      "research_history": "HIJ College is known for fostering creativity and academic excellence.",
+      "sports": [
+        "Football, ",
+        "Basketball, ",
+        "Tennis, ",
+        "Swimming "
+      ],
+      "admission_process": "Apply at https://hijcollege.edu/admissions.",
+      "event_details": {
+        "Freshers' Welcome": {
+          "time": "5:00 PM - 8:00 PM",
+          "location": "College Auditorium"
+        },
+        "Cultural Extravaganza": {
+          "time": "9:00 AM - 11:00 PM",
+          "location": "College Ground"
+        },
+        "Innovation Fair": {
+          "time": "10:00 AM - 5:00 PM",
+          "location": "College Exhibition Hall"
+        }
+      },
+      "research_works": [
+        {
+          "title": "Biomedical Engineering Breakthroughs",
+          "authors": ["Andrew Johnson", "Sophia Clark", "Daniel White"],
+          "link": "https://example.com/research_biomedical_engineering"
+        },
+        {
+          "title": "AI in Finance",
+          "authors": ["Michael Brown", "Emily Turner"],
+          "link": "https://example.com/research_ai_finance"
+        }
+      ],
+      "ratings": 4.4,
+      "number_of_research": 720
+    }
+]
+
