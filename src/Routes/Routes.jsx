@@ -1,5 +1,6 @@
 import { createBrowserRouter } from "react-router-dom";
 import Main from "../LayOut/Main";
+import NotFound from "../NotFound";
 import AllColleges from "../Pages/AllColleges/AllColleges";
 import CollegeDetails from "../Pages/CollegeDetails/CollegeDetails";
 import Home from "../Pages/Home/Home/Home";
@@ -34,6 +35,10 @@ const router = createBrowserRouter([
         }
       ]
     },
+    {
+      path: '/*',
+      element: <NotFound></NotFound>
+    }
   ]);
 
   export default router;

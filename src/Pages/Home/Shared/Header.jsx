@@ -25,7 +25,9 @@ const handleLogOut = ()=> {
      {user?.email? <>
       <li><Link  to='/addToy'>Admission</Link></li>
       <li><Link  to='/myToy'>My College</Link></li>
+     
       <li><button onClick={handleLogOut} >Log Out</button></li>
+      <span className='mt-2 text-red-500'>{user?.displayName}</span>
      
      </>:
     
