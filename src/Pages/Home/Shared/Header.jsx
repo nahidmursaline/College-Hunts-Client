@@ -18,7 +18,7 @@ const handleLogOut = ()=> {
     const navItems = 
     <>
       <li><Link to='/'>Home</Link></li>
-     <li><Link to='/classes'>Colleges</Link></li>
+     <li><Link to='/allColleges'>Colleges</Link></li>
     
 
      
