@@ -1,6 +1,8 @@
 import { createBrowserRouter } from "react-router-dom";
 import Main from "../LayOut/Main";
 import NotFound from "../NotFound";
+import Admission from "../Pages/Admission/Admission";
+import AdmissionDetail from "../Pages/Admission/AdmissionDetail";
 import AllColleges from "../Pages/AllColleges/AllColleges";
 import CollegeDetails from "../Pages/CollegeDetails/CollegeDetails";
 import Home from "../Pages/Home/Home/Home";
@@ -30,8 +32,17 @@ const router = createBrowserRouter([
           loader: ({params})=> fetch(`http://localhost:5000/colleges/${params.id}`)
         },
         {
+          path: 'admissionDetail/:id',
+          element: <AdmissionDetail></AdmissionDetail>,
+          loader: ({params})=> fetch(`http://localhost:5000/colleges/${params.id}`)
+        },
+        {
           path: 'allColleges',
           element: <AllColleges></AllColleges>
+        },
+        {
+          path: 'admission',
+          element: <Admission></Admission>
         }
       ]
     },

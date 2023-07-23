@@ -23,7 +23,7 @@ const handleLogOut = ()=> {
 
      
      {user?.email? <>
-      <li><Link  to='/addToy'>Admission</Link></li>
+      <li><Link  to='/admission'>Admission</Link></li>
       <li><Link  to='/myToy'>My College</Link></li>
      
       <li><button onClick={handleLogOut} >Log Out</button></li>
