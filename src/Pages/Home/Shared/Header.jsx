@@ -19,12 +19,12 @@ const handleLogOut = ()=> {
     <>
       <li><Link to='/'>Home</Link></li>
      <li><Link to='/allColleges'>Colleges</Link></li>
-    
+     <li><Link  to='/admission'>Admission</Link></li>
+      <li><Link  to='/mycollege'>My College</Link></li>
 
      
      {user?.email? <>
-      <li><Link  to='/admission'>Admission</Link></li>
-      <li><Link  to='/mycollege'>My College</Link></li>
+      
      
       <li><button onClick={handleLogOut} >Log Out</button></li>
       <Link to='/profile'><span className='pt-8 pt-[40px] text-red-500'>{user?.displayName}</span></Link>
