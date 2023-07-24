@@ -1,10 +1,12 @@
 import { createBrowserRouter } from "react-router-dom";
 import Main from "../LayOut/Main";
 import NotFound from "../NotFound";
+import AddReviews from "../Pages/AddReviews/AddReviews";
 import Admission from "../Pages/Admission/Admission";
 import AdmissionDetail from "../Pages/Admission/AdmissionDetail";
 import AllColleges from "../Pages/AllColleges/AllColleges";
 import CollegeDetails from "../Pages/CollegeDetails/CollegeDetails";
+import CollegeReviews from "../Pages/CollegeReviews/CollegeReviews";
 import Home from "../Pages/Home/Home/Home";
 import Login from "../Pages/Login/Login";
 import MyCollege from "../Pages/MyCollege/MyCollege";
@@ -30,7 +32,7 @@ const router = createBrowserRouter([
         },
         {
           path: 'detail/:id',
-          element: <CollegeDetails></CollegeDetails>,
+          element: <PrivateRoute><CollegeDetails></CollegeDetails></PrivateRoute>,
           loader: ({params})=> fetch(`http://localhost:5000/colleges/${params.id}`)
         },
         {
@@ -49,6 +51,15 @@ const router = createBrowserRouter([
         {
           path: 'mycollege',
           element: <PrivateRoute><MyCollege></MyCollege></PrivateRoute>
+        },
+        {
+          path: 'reviews/:id',
+          element: <AddReviews></AddReviews>,
+          loader: ({params}) => fetch(`http://localhost:5000/admissions/${params.id}`)
+        },
+        {
+          path: 'collegeReviews',
+          element: <CollegeReviews></CollegeReviews>
         }
       ]
     },

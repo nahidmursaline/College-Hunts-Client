@@ -1,13 +1,31 @@
+import { getAuth, GoogleAuthProvider, signInWithPopup } from 'firebase/auth';
 import React from 'react';
 import { useContext } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
+import app from '../../Firebase/firebase.config';
 import { AuthContext } from '../../Provider/AuthProvider';
 
 const Login = () => {
+  const auth = getAuth(app);
+  const googleProvider = new GoogleAuthProvider();
 
 const {signIn} = useContext(AuthContext)
 
 const navigate = useNavigate();
+
+
+const handleGoogleSignin = ()=>{
+  signInWithPopup(auth, googleProvider)
+  .then(result => {
+    const user = result.user;
+    navigate('/')
+  })
+  .catch(error => {
+    console.log('error', error.message);
+  })
+}
+
+
 
     const handleLogin = event => {
         event.preventDefault();
@@ -54,7 +72,8 @@ const navigate = useNavigate();
               <div className="form-control mt-6">
                
                 <input className="btn btn-error" type='submit' value= 'Login'></input><br />
-                <button onClick={''} className="btn btn-error">Google Login</button>
+                <button onClick={handleGoogleSignin} className="btn btn-error mb-6">Google Login</button>
+                <button onClick={handleGoogleSignin} className="btn btn-error">Social Media</button>
               </div>
             </form>
             <p className='text-center my-4'>New to College Hunting? <Link className=' text-red-600 ' to='/signup'>Sign Up</Link></p>

@@ -15,7 +15,7 @@ const AdmissionDetail = () => {
         const subject = form.subject.value;
         const email = user?.email;
         const phone = form.phone.value;
-        
+        const collegeName = form.collegeName.value;
         const address = form.address.value;
         const date = form.date.value;
         const description = form.description.value;
@@ -26,7 +26,7 @@ const AdmissionDetail = () => {
           subject,
           email,
           phone,
-          
+          collegeName,
           address,
           date,
           description,
@@ -67,10 +67,10 @@ number_of_research,
 ratings
 } = detail;
     return (
-        <div>
+        <div className=''>
             
-            <div className='pt-10'>
-      <h1 className='text-center font-bold my-20 text-xl mb-20'>Candidate Information for: {name}</h1>
+            <div className='pt-10 '>
+      <h1 className='text-center py-10 font-bold text-3xl'>Candidate Information for: {name}</h1>
 
       <form onSubmit={handleSubmit}>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -88,12 +88,24 @@ ratings
           </div>
           <div className="form-control">
             <label className="label">
+              <span className="label-text">College Name</span>
+            </label>
+            <input
+              type="text"
+              name="collegeName"
+              defaultValue={name}
+              placeholder="Name"
+              className="input input-bordered"
+            />
+          </div>
+          <div className="form-control">
+            <label className="label">
               <span className="label-text">Subject</span>
             </label>
             <input
               type="text"
               name="subject"
-              placeholder="Seller Name"
+              placeholder="Subject"
               className="input input-bordered"
             />
           </div>
@@ -116,7 +128,7 @@ ratings
             <input
               type="text"
               name="phone"
-              placeholder="Category"
+              placeholder="Phone Number"
               className="input input-bordered"
             />
           </div>
@@ -155,7 +167,7 @@ ratings
               className="input input-bordered"
             />
           </div>
-          <div className="form-control">
+          <div className="form-control ">
             <label className="label">
               <span className="label-text">Picture URL of the Candidate</span>
             </label>

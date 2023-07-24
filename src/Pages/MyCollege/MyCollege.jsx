@@ -20,7 +20,7 @@ const MyCollege = () => {
              <div className='pt-20'>
              <div className='m-4 '>
             <div>
-                <h2 className='text-3xl text-center mb-4'>My Colleges</h2>
+                <h2 className='text-center py-6 font-bold text-3xl'>My Colleges</h2>
             </div>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6'>
                 {myCollege.map(college => <MyCollegeCard

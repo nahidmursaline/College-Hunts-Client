@@ -12,7 +12,7 @@ import gallery9 from '../../assets/image/graduates/gallery9.jpg';
 
 const Gallery = () => {
     return (
-        <div className='my-20' data-aos="fade-up-left ">
+        <div className='my-16' data-aos="fade-up-left ">
           <h2 className='text-center py-6 font-bold text-3xl'>Graduate's Photo Gallery</h2>
             <div  className="grid grid-cols-3 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
               

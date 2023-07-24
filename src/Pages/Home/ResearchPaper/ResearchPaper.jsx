@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import AllCollegesCard from './AllCollegesCard';
+import ResearchPaperCard from './ResearchPaperCard';
 
-const AllColleges = () => {
-
+const ResearchPaper = () => {
     const [allColleges, setAllColleges] = useState([]);
 
     useEffect(()=> {
@@ -11,23 +10,23 @@ const AllColleges = () => {
         .then(data => setAllColleges(data))
     }, [])
     return (
-        <div className='pt-20'>
+        <div className=''>
              <div className='m-4 '>
             <div>
-                <h2 className='text-center py-6 font-bold text-3xl'>Colleges</h2>
+                <h2 className='text-center py-6 font-bold text-3xl'>Research Paper</h2>
             </div>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6'>
-                {allColleges.map(college => <AllCollegesCard
+                {allColleges.map(college => <ResearchPaperCard
                 
                 key={college._id}
                 college = {college}
                 >
 
-                </AllCollegesCard>)}
+                </ResearchPaperCard>)}
             </div>
         </div>
         </div>
     );
 };
 
-export default AllColleges;
+export default ResearchPaper;

@@ -25,10 +25,10 @@ const Colleges = () => {
     return (
         <div className='m-4 '>
             <div>
-                <h2 className='text-3xl text-center mb-4'>Colleges</h2>
+                <h2 className='text-center py-6 font-bold text-3xl'>Colleges</h2>
                 <input
           type="text"
-          placeholder="Search by name"
+          placeholder="Search by college name"
           value={searchQuery}
           onChange={handleSearch}
           className="w-full border border-gray-300 rounded p-2 mb-4"
