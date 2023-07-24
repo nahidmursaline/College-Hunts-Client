@@ -7,6 +7,7 @@ import AdmissionDetail from "../Pages/Admission/AdmissionDetail";
 import AllColleges from "../Pages/AllColleges/AllColleges";
 import CollegeDetails from "../Pages/CollegeDetails/CollegeDetails";
 import CollegeReviews from "../Pages/CollegeReviews/CollegeReviews";
+import EditProfile from "../Pages/EditProfile/EditProfile";
 import Home from "../Pages/Home/Home/Home";
 import Login from "../Pages/Login/Login";
 import MyCollege from "../Pages/MyCollege/MyCollege";
@@ -65,6 +66,10 @@ const router = createBrowserRouter([
         {
           path: 'profile',
           element: <Profile></Profile>
+        },
+        {
+          path: 'editProfile',
+          element: <EditProfile></EditProfile>
         }
       ]
     },
