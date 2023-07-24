@@ -10,6 +10,7 @@ import CollegeReviews from "../Pages/CollegeReviews/CollegeReviews";
 import Home from "../Pages/Home/Home/Home";
 import Login from "../Pages/Login/Login";
 import MyCollege from "../Pages/MyCollege/MyCollege";
+import Profile from "../Pages/Profile/Profile";
 import SingUp from "../Pages/SignUp/SingUp";
 import PrivateRoute from "./PrivateRoute";
 
@@ -60,6 +61,10 @@ const router = createBrowserRouter([
         {
           path: 'collegeReviews',
           element: <CollegeReviews></CollegeReviews>
+        },
+        {
+          path: 'profile',
+          element: <Profile></Profile>
         }
       ]
     },

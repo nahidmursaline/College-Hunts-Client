@@ -4,7 +4,7 @@ import Colleges from '../../Colleges/Colleges';
 import Gallery from '../../Gallery/Gallery';
 import Banner from '../Banner/Banner';
 import ResearchPaper from '../ResearchPaper/ResearchPaper';
-import Reviews from '../Reviews/Reviews';
+
 
 const Home = () => {
     return (
